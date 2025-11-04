@@ -1,6 +1,7 @@
 streamlit
-PyMuPDF==1.22.0
+pymupdf==1.26.5
 Pillow
 numpy
 opencv-python-headless
-cairosvg      # optional, include only if you expect the environment to allow it
+pytesseract
+cairosvg    # optional, for svg -> png conversion
