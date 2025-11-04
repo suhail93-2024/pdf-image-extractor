@@ -1,7 +1,8 @@
-streamlit
-pymupdf
-streamlit
-pymupdf
-pillow
-pytesseract
+PyMuPDF==1.22.0       # pip install pymupdf (package name: fitz)
 opencv-python-headless
+Pillow
+numpy
+pytesseract           # optional, for caption-based heuristics (needs tesseract on system)
+cairosvg              # optional, to convert page SVG -> PNG
+pdf2image             # optional; not required if using PyMuPDF rendering
+
